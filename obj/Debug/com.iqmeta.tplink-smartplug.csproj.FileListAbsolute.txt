@@ -1,0 +1,8 @@
+C:\Users\Dean Hou\Downloads\tplink-smartplug-master\tplink-smartplug-master\com.iqmeta.tplink-smartplug\bin\Debug\tplink-smartplug.exe.config
+C:\Users\Dean Hou\Downloads\tplink-smartplug-master\tplink-smartplug-master\com.iqmeta.tplink-smartplug\bin\Debug\tplink-smartplug.exe
+C:\Users\Dean Hou\Downloads\tplink-smartplug-master\tplink-smartplug-master\com.iqmeta.tplink-smartplug\bin\Debug\tplink-smartplug.pdb
+C:\Users\Dean Hou\Downloads\tplink-smartplug-master\tplink-smartplug-master\com.iqmeta.tplink-smartplug\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dean Hou\Downloads\tplink-smartplug-master\tplink-smartplug-master\com.iqmeta.tplink-smartplug\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Dean Hou\Downloads\tplink-smartplug-master\tplink-smartplug-master\com.iqmeta.tplink-smartplug\obj\Debug\com.iqmeta.tplink-smartplug.csprojResolveAssemblyReference.cache
+C:\Users\Dean Hou\Downloads\tplink-smartplug-master\tplink-smartplug-master\com.iqmeta.tplink-smartplug\obj\Debug\tplink-smartplug.exe
+C:\Users\Dean Hou\Downloads\tplink-smartplug-master\tplink-smartplug-master\com.iqmeta.tplink-smartplug\obj\Debug\tplink-smartplug.pdb
