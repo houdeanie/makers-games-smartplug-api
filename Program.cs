@@ -14,9 +14,12 @@ namespace com.iqmeta.tplink_smartplug
             {
 
                 while (true) {
+                    //dynamic plugResponse = Utils.SendToSmartPlugOrSwitch(plugOrSwitchIP, Commands.SysInfoAndEmeter());
+                    //Console.WriteLine(JsonConvert.SerializeObject(plugResponse, Formatting.Indented));
                     dynamic plugResponse = Utils.SendToSmartPlugOrSwitch(plugOrSwitchIP, Commands.Emeter());
                     string emeter = JsonConvert.SerializeObject(plugResponse, Formatting.Indented);
-                    string pattern = "\\}.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*";
+                    dynamic stuff = JsonConvert.DeserializeObject(emeter);
+                    /*string pattern = "\\}.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*";
                     string replacement = "";
                     Regex rgx = new Regex(pattern);
                     string result = rgx.Replace(emeter, replacement);
@@ -24,7 +27,9 @@ namespace com.iqmeta.tplink_smartplug
                     string replacement1 = "";
                     Regex rgx1 = new Regex(pattern1);
                     string result1 = rgx1.Replace(result, replacement1);
-                    Console.WriteLine(result1);
+                    Console.WriteLine(result1);*/
+                    string power = stuff.emeter.get_realtime.power_mw;
+                    Console.WriteLine(power);
 
                 }
                 //Utils.SendToSmartPlugOrSwitch(plugOrSwitchIP, Commands.TurnOn());
